@@ -1,0 +1,63 @@
+body{
+    background: #efefef;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+#spacer {
+    position: relative;
+    height: 350px;
+}
+.Nav_Bar{
+    background-color: transparent;
+    margin: 0;
+    overflow: hidden;
+}
+
+.Nav_Bar ul{
+    margin: 0;
+    padding: 0;
+}
+
+.Nav_Bar ul li{
+    /* this allows us to arrange list items in a row without usint the floats*/
+   display: inline-block;
+    list-style-type: none;
+    width: 200px;
+}
+
+.Nav_Bar li> ul li{
+    display: block;
+}
+.Nav_Bar li> ul li{
+    color: transparent;
+    display: block;
+    line-height: 2em;
+    padding: .5em 2em;
+    text-decoration: none;
+}
+/*!* change the background color when mouse over item* *!*/
+/*.Nav_Bar:hover{*/
+    /*background-color: #666;*/
+/*}*/
+
+/*!* display the submenu on mouse over mail menu items*!*/
+/*.Nav_Bar:hover > ul{*/
+    /*position: absolute;*/
+    /*display: block;*/
+    /*margin-left: 100%;*/
+    /*margin-right: -3em;*/
+/*}*/
+.clear{
+    clear: both;
+}
+
+#nav_ul li{
+    position: relative;
+    float: left;
+}
+#Main{
+    position: relative;
+    margin: 20px;
+    padding: 10px;
+}
